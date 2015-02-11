@@ -41,6 +41,9 @@
     <hr>
     <p><?php echo $powered; ?></p> 
   </div>
+  <script type="text/javascript">
+      $(document).foundation();
+  </script>
 </footer>
 
 <!--

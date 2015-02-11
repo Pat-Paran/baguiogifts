@@ -1,0 +1,63 @@
+.productContainer{
+	padding:10px;
+	border:5px solid $black;
+	.productPrice{
+		background:$black;
+		padding:10px 0;
+		width:100%;
+		text-align:center;
+		color:$red;
+		font-size:18px;
+		margin-bottom:5px;
+	}
+	.viewBtn{
+		background:$black;
+		padding:10px 0;
+		width:100%;
+		text-align:center;
+		color:#fff;
+		font-size:18px;
+		display:block;
+	}
+	.saleTag{
+		position:absolute;   
+		right:0px;
+		top:16px;
+		@include icons-sprite(saleTag2);
+		width:96px;      
+		height:69px;
+		display:block;
+		-webkit-animation-duration: 3s;  
+  		-webkit-animation-delay: 0s;
+  		-webkit-animation-iteration-count: infinite;
+	}
+	.areaDtl{
+		.leftPad{
+			position:absolute;
+			left:30px;
+			bottom:29px;
+			width: 0;
+			height: 0;
+			border-top: 115px solid $red;
+			border-right: 42px solid transparent;
+			border-left: 20px solid $red;
+		}
+		.rightPad{
+			position:absolute;
+			right:30px;
+			bottom:29px;
+			width: 0;
+			height: 0;
+			border-top: 115px solid $red;
+			border-left: 42px solid transparent;
+			border-right: 20px solid $red;
+			-moz-transform: scaleY(-1);
+			-o-transform: scaleY(-1);
+			-webkit-transform: scaleY(-1);
+			transform: scaleY(-1);
+			filter: FlipH;
+			-ms-filter: "FlipV";
+		}
+	}
+
+}

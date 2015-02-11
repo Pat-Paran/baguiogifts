@@ -1,8 +1,25 @@
 @import "settings";
 @import "foundation";
+@import "compass/css3";
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+@include all-icons-sprites;
+@import "foundation/components/reveal";
 
+@import
+     
+	"common/color",  
+	"common/slick",
+	"common/typography",       
+	"common/forms",
+	"page/header",
+	"page/footer",
+	"page/featured",
+	"page/product",
+	"page/home";
+ 
 // Or selectively include components
-// @import
+ //@import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",
 //   "foundation/components/block-grid",
@@ -10,22 +27,22 @@
 //   "foundation/components/button-groups",
 //   "foundation/components/buttons",
 //   "foundation/components/clearing",
-//   "foundation/components/dropdown",
+//   "foundation/components/dropdown", 
 //   "foundation/components/dropdown-buttons",
 //   "foundation/components/flex-video",
 //   "foundation/components/forms",
 //   "foundation/components/grid",
-//   "foundation/components/inline-lists",
+//   "foundation/components/inline-lists",  
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
 //   "foundation/components/labels",
 //   "foundation/components/magellan",
 //   "foundation/components/orbit",
 //   "foundation/components/pagination",
-//   "foundation/components/panels",
+//   "foundation/components/panels",  
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
+ //"foundation/components/reveal";
 //   "foundation/components/side-nav",
 //   "foundation/components/split-buttons",
 //   "foundation/components/sub-nav",

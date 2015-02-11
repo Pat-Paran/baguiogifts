@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Bellota-Regular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Bellota-Regular.eot');
+  src: url('../fonts/Bellota-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bellota-Regular.woff') format('woff'),
+      url('../fonts/Bellota-Regular.ttf') format('truetype'),
+      url('../fonts/Bellota-Regular.svg#genericonsregular') format('svg');   
+}
+
+@font-face {
+  font-family: 'Bellota-Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Bellota-Bold.eot');
+  src: url('../fonts/Bellota-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Bellota-Bold.woff') format('woff'),
+      url('../fonts/Bellota-Bold.ttf') format('truetype'),
+      url('../fonts/Bellota-Bold.svg#genericonsregular') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/OpenSans.eot');
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans.woff') format('woff'),
+      url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+      url('../fonts/OpenSans.svg#genericonsregular') format('svg');
+}
+
+a,h1,h2,h3,h4,h5,h6{  
+  font-family: 'Bellota-Bold';
+  color:$black;
+}
+a:hover{
+  color:$red;
+}
+p{
+  font-family: 'Bellota-Regular';
+}

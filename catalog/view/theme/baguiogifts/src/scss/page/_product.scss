@@ -1,0 +1,80 @@
+.productWrap{
+
+	.productSlider{
+		border:3px solid $black;
+		margin-left:0;
+		margin-bottom:10px;
+	}
+	.productThumb{
+		margin-left:0;
+		border:3px solid $black;
+	}
+	.productName{
+		float:left;
+	}
+	.brandName{
+		margin:10px 10px;
+		float:left
+	}
+	.priceProduct{
+		float:left;
+		margin:10px;
+	}
+	.discountProduct{
+		float:left;
+
+	}
+	.saleTag{
+		position:absolute;   
+		left:50%;
+		top:16px;
+		@include icons-sprite(saleTag2);
+		width:96px;      
+		height:69px;
+		display:block;
+		-webkit-animation-duration: 3s;  
+  		-webkit-animation-delay: 0s;
+  		-webkit-animation-iteration-count: infinite;
+	}
+	.btnRow{
+		margin-top:15px;
+		.quantityText{
+			margin-left:10px;
+			display:block;
+			width:100%;
+			font-family: 'Bellota-Bold';
+		}
+	}
+	
+
+	//slider
+	.prevProduct, .prevProduct:active ,.prevProduct:hover, .prevProduct:before , .prevProduct:after, .prevProduct:focus ,.prevProduct:visited{
+		@include icons-sprite(prev);
+		width:30px;
+		height:60px;
+		left:0px;
+		top:43px;
+		content:"";
+	}
+	.nextProduct, .nextProduct:active ,.nextProduct:hover, .nextProduct:before , .nextProduct:after, .nextProduct:focus ,.nextProduct:visited{
+		@include icons-sprite(next);
+		width:30px;
+		height:60px;
+		right:0px;
+		top:43px;
+		content:"";
+	}
+	@media(max-width:640px){
+		.nextProduct{
+			display:none;
+		}
+		.prevProduct{
+			display:none;
+		}
+	}
+
+}
+.relatedText{
+	border-top:2px solid $black;
+	margin-top:10px;
+}

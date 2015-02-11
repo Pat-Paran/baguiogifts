@@ -1,0 +1,28 @@
+.categWrap{
+	background:url('../images/giftpurple.jpg') center; 
+	float:left;
+	width:100%; 
+	height:1080px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.menuWrap{
+	position:relative;
+	height:300px;
+	.upborder{
+		& > img{
+			width:100%;
+		}
+	}
+}
+.downborder{
+		& > img{
+			width:100%;
+		}
+	}
+.productSection{
+	position:relative;
+	background:#fff;
+	padding-top:80px;
+	
+}
